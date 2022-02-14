@@ -1,0 +1,17 @@
+{
+	"name": "ls_kfc_datalake",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "coexion hacia storage account de kfc",
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://dlsgrupokfcadf.dfs.core.windows.net",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0M2I5OTJiZi0xN2MxLTQ4MmEtYjhlNi0yOTRmMDBlNGUzM2UiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IR-Conexion-Local",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
