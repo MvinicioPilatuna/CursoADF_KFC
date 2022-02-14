@@ -1,0 +1,6 @@
+{
+	"name": "IR-Conexion-Local",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}
