@@ -1,0 +1,18 @@
+{
+	"name": "ls_fileSystemLocal",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Conectarme a mi sistema de archivo local de IR",
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\Users\\marco.pilatuna\\DataFactory",
+			"userId": "KFC\\Marco.pilatuna",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyOGQ5NjlkYy00OTJkLTQxZDYtOTc3ZS0zNzY5ZGNhODljN2QiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "IR-Conexion-Local",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
