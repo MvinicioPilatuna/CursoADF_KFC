@@ -1,0 +1,9 @@
+{
+	"name": "adf-grupokfc-marco-pilatuna",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ee5f247d-a9ef-49ef-931e-524078fae25f",
+		"tenantId": "879312d9-8eca-4bfd-ba34-3c258c30c645"
+	}
+}
