@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-grupokfc-marco-pilatuna"
+		},
+		"ls_azuresqldatbase_properties_typeProperties_connectionString_secretName": {
+			"value": "connection-string"
+		},
+		"ls_keyvault_kfc_properties_typeProperties_baseUrl": {
+			"value": "https://kv-grupokfc-adf.vault.azure.net/"
+		}
+	}
+}
